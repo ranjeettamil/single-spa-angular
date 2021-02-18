@@ -9,7 +9,7 @@ import { login } from '@example/auth';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent implements OnInit {
-  message: string;
+  message = login();
 
 
   ngOnInit() {
